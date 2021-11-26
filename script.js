@@ -1,4 +1,4 @@
-console.log("Welcome to the count down timer");
+alert("Welcome to the count down timer");
 document.getElementById("sbmt").onclick = function () {
   let target = document.getElementById("datetime").value;
   let intervalId = setInterval(function () {
